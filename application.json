@@ -4,7 +4,9 @@
     "appPositioning": {
       "type": "FIXED"
     },
-    "navigationSetting": {},
+    "navigationSetting": {
+      "logoAssetId": ""
+    },
     "themeSetting": {
       "appMaxWidth": "LARGE",
       "density": 1.0,
@@ -26,7 +28,9 @@
     "appPositioning": {
       "type": "FIXED"
     },
-    "navigationSetting": {},
+    "navigationSetting": {
+      "logoAssetId": ""
+    },
     "themeSetting": {
       "appMaxWidth": "LARGE",
       "density": 1.0,
