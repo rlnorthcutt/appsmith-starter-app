@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "66b8d2006491da6bd01b4a87_24bffe5b-c44e-4169-8133-52aad249397f",
+  "id": "Page1_controller",
+  "unpublishedCollection": {
+    "name": "controller",
+    "pageId": "Page1",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "zeroState",
+        "value": "{}"
+      }
+    ]
+  }
+}

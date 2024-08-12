@@ -1,0 +1,20 @@
+{
+  "gitSyncId": "66b8d2006491da6bd01b4a87_8db554aa-a4f2-46b7-9a56-e12a0230d203",
+  "id": "Page1_config",
+  "unpublishedCollection": {
+    "name": "config",
+    "pageId": "Page1",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "appname",
+        "value": "\"starterApp\""
+      },
+      {
+        "name": "title",
+        "value": "\"Starter App\""
+      }
+    ]
+  }
+}

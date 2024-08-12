@@ -1,0 +1,28 @@
+{
+  "gitSyncId": "66b8d2006491da6bd01b4a87_3bb1dff5-f3f1-4d31-b1dd-379ded51ff6a",
+  "id": "Page1_state",
+  "unpublishedCollection": {
+    "name": "state",
+    "pageId": "Page1",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "appTitle",
+        "value": "\"Starter App\""
+      },
+      {
+        "name": "curentTab",
+        "value": "\"view\""
+      },
+      {
+        "name": "description",
+        "value": "\"This is a simple starting application that provides common boilerplate code for new applications. This includes a config object, state object, and a generic controller.\""
+      },
+      {
+        "name": "firstTime",
+        "value": "true"
+      }
+    ]
+  }
+}
