@@ -38,7 +38,7 @@
   "mobileRightColumn": 64,
   "mobileTopRow": 14,
   "needsErrorInfo": false,
-  "onClick": "{{state.curentTab = \"edit\"}}",
+  "onClick": "{{state.currentTab = \"edit\"}}",
   "parentColumnSpace": 19.90625,
   "parentId": "ukapqcjqcp",
   "parentRowSpace": 10,

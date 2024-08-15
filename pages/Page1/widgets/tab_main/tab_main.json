@@ -5,12 +5,12 @@
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": 1,
-  "bottomRow": 26,
+  "bottomRow": 37,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "children": [
     {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 200,
+      "bottomRow": 310,
       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
       "canExtend": true,
       "detachFromLayout": true,
@@ -56,7 +56,7 @@
     },
     {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 290,
+      "bottomRow": 310,
       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
       "canExtend": true,
       "detachFromLayout": true,
@@ -101,7 +101,7 @@
       "widgetName": "Canvas2"
     }
   ],
-  "defaultTab": "{{state.curentTab}}",
+  "defaultTab": "{{state.currentTab}}",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
@@ -132,8 +132,8 @@
   "mobileRightColumn": 24,
   "mobileTopRow": 6,
   "needsErrorInfo": false,
-  "originalBottomRow": 26,
-  "originalTopRow": 6,
+  "originalBottomRow": 32,
+  "originalTopRow": 12,
   "parentColumnSpace": 20.21875,
   "parentId": "0",
   "parentRowSpace": 10,

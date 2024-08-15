@@ -19,18 +19,16 @@ export default {
 	currentTab: "view",
 
 	/**
-   * A description of the application. In the default example, this can be edited.
+   * A description of the application as a template literal. In the default example, this can be edited.
    * @type {string}
    */
-	description: "This is a simple starting application that provides common boilerplate code for new applications. This includes a config object, state object, and a generic controller.",
+	description: `<p>This starter application provides essential boilerplate code to help you quickly set up new projects. This includes a config object, state object, and a generic controller. This app uses the Tab widget with <em>hidden tabs</em> to toggle between view and edit modes, controlled by the <code>state.currentTab</code> variable.</p>
+<p>This is a great technique for multi-step forms or workflows. However, for larger or more complex sections, consider using separate pages instead.</p>`,
 
 	/**
    * A flag indicating whether this is the user's first time using the application.
    * @type {boolean}
    */
 	firstTime: true,
-
-}
-
 
 }

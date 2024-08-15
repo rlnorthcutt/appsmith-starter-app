@@ -8,16 +8,12 @@
     "pluginType": "JS",
     "variables": [
       {
-        "name": "appTitle",
-        "value": "\"Starter App\""
-      },
-      {
         "name": "currentTab",
         "value": "\"view\""
       },
       {
         "name": "description",
-        "value": "\"This is a simple starting application that provides common boilerplate code for new applications. This includes a config object, state object, and a generic controller.\""
+        "value": "`<p>This starter application provides essential boilerplate code to help you quickly set up new projects. This includes a config object, state object, and a generic controller. This app uses the Tab widget with <em>hidden tabs</em> to toggle between view and edit modes, controlled by the <code>state.currentTab</code> variable.</p>\n<p>This is a great technique for multi-step forms or workflows. However, for larger or more complex sections, consider using separate pages instead.</p>`"
       },
       {
         "name": "firstTime",
