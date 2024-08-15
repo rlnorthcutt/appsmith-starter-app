@@ -17,15 +17,16 @@ export default {
    * @type {string}
    */
 	help : `<h3>Starter App</h3>
-Building apps with Appsmith is fun and easy! This app contains some boilerplate code that sets up a new project. All of the code is heavily commented for your reference. You may not want to comment your code quite so much, but remember that <a href="https://community.appsmith.com/content/blog/lack-comments-bug">good comments</a> make it easier to manage and maintain your apps.
+Building apps with Appsmith is both fun and straightforward! This app includes essential boilerplate code to help you start a new project quickly. The code is thoroughly commented to serve as a reference. While you may not need to comment your code as extensively, keep in mind that <a href="https://community.appsmith.com/content/blog/lack-comments-bug">well-placed comments</a> make your apps easier to manage and maintain.
 
 Tips:
 <ol>
-    <li>Use the <strong>"config"</strong> object to hold static configuration data that will not change during runtime. This can be variables, select lists, constants, etc. Consider this a great place to stick constants and global variables that can be referenced multiple times.</li>
-    <li>Use the <strong>"state"</strong> object to hold dynamic data that changes often. These will typically be global mutable variables. This starter app also contains methods to save and reload the state object to maintain state across page reloads. This allows your users to pick up where they left off.</li>
-    <li>The <strong>"controller"</strong> is the application's base controller. You will typically create new objects for your app to contain your main functionality, ideally organized by domain or functionality (like the "app" object).</li>
-    <li>For your widgets, be sure to use the recommended <a href="https://community.appsmith.com/content/blog/recommended-appsmith-naming-conventions">naming conventions</a>. This will make it easier to manage your app as it grows in complexity.</li>
-    <li>Use state variables for most of your binding data, especially if it changes. This makes it more performant and easier to adjust and manage.</li>
+    <li>Use the <strong>"config"</strong> object to store static configuration data that doesn't change during runtime. This can include variables, select lists, constants, and other global values that you may need to reference multiple times.</li>
+    <li>Use the <strong>"state"</strong> object to manage dynamic data that changes frequently. This typically includes global mutable variables. This starter app also provides methods to save and reload the state object, allowing users to continue where they left off after a page reload.</li>
+    <li>The <strong>"controller"</strong> is the app's base controller. As your app grows, you'll likely create new objects to handle specific functionalities, ideally organized by domain or feature set (such as an "app" object).</li>
+    <li>For your widgets, follow the recommended <a href="https://community.appsmith.com/content/blog/recommended-appsmith-naming-conventions">naming conventions</a>. This will make it easier to manage your app as it becomes more complex.</li>
+    <li>Use state variables for most of your data bindings, especially if the data changes. This approach improves performance and makes your app easier to adjust and manage.</li>
 </ol>
-These tips will help you create more performant and maintainable apps. Remember that you are building a client-side web application, so much of your performance concerns will revolve around the common situations present in all browser-based web applications.`,
+Following these tips will help you build apps that are more performant and maintainable. Keep in mind that you're developing a client-side web application, so many of your performance considerations will involve common challenges present in all browser-based apps.`,
+
 }
