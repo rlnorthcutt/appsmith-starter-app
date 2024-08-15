@@ -14,6 +14,14 @@
       {
         "name": "title",
         "value": "\"Starter App\""
+      },
+      {
+        "name": "saveMessage",
+        "value": "\"App saved\""
+      },
+      {
+        "name": "resetMessage",
+        "value": "\"App reset\""
       }
     ]
   }

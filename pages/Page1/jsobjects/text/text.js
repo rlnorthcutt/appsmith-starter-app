@@ -1,11 +1,23 @@
 export default {
-	// This object stores any formatted text that may be used in your app.
-	// Primarily, this will be used for help text, instructions, or reference data.
-	
-	// Using a JS template literal with embedded variables
-	// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals
+	/**
+   * This object stores formatted text content that may be used within your application.
+   * 
+   * The primary use of this object is to hold help text, instructions, or reference data that
+   * might be displayed to the user. By organizing these text snippets here, it becomes easier 
+   * to manage and update instructional content without scattering it throughout the codebase.
+   */
+
+	/**
+   * HTML-formatted help text to guide users in using the Starter App.
+   * 
+   * This content is stored as a template literal, allowing for the easy embedding of variables 
+   * and multi-line strings. It provides users with tips and best practices for building apps 
+   * using Appsmith, covering topics such as configuration, state management, and naming conventions.
+   * 
+   * @type {string}
+   */
 	help : `<h3>Starter App</h3>
-Building apps with Appsmith is fun and easy! This app contains some boilerplate code that sets up a new project.
+Building apps with Appsmith is fun and easy! This app contains some boilerplate code that sets up a new project. All of the code is heavily commented for your reference. You may not want to comment your code quite so much, but remember that <a href="https://community.appsmith.com/content/blog/lack-comments-bug">good comments</a> make it easier to manage and maintain your apps.
 
 Tips:
 <ol>
