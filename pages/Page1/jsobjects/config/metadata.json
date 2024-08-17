@@ -16,12 +16,8 @@
         "value": "\"Starter App\""
       },
       {
-        "name": "saveMessage",
-        "value": "\"App saved\""
-      },
-      {
-        "name": "resetMessage",
-        "value": "\"App reset\""
+        "name": "autoLoadState",
+        "value": "true"
       }
     ]
   }

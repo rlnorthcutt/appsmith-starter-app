@@ -1,8 +1,8 @@
 {
   "gitSyncId": "66b8d2006491da6bd01b4a87_24bffe5b-c44e-4169-8133-52aad249397f",
-  "id": "Page1_controller",
+  "id": "Page1_stateController",
   "unpublishedCollection": {
-    "name": "controller",
+    "name": "stateController",
     "pageId": "Page1",
     "pluginId": "js-plugin",
     "pluginType": "JS",
@@ -10,6 +10,14 @@
       {
         "name": "zeroState",
         "value": "{}"
+      },
+      {
+        "name": "saveMessage",
+        "value": "\"App saved\""
+      },
+      {
+        "name": "resetMessage",
+        "value": "\"App reset\""
       }
     ]
   }

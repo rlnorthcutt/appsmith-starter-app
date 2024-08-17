@@ -13,7 +13,7 @@
       },
       {
         "name": "description",
-        "value": "`<p>This starter application provides essential boilerplate code to help you quickly set up new projects. This includes a config object, state object, and a generic controller. This app uses the Tab widget with <em>hidden tabs</em> to toggle between view and edit modes, controlled by the <code>state.currentTab</code> variable.</p>\n<p>This is a great technique for multi-step forms or workflows. However, for larger or more complex sections, consider using separate pages instead.</p>`"
+        "value": "text.description"
       },
       {
         "name": "firstTime",

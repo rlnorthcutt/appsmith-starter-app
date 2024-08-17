@@ -20,10 +20,10 @@ export default {
 
 	/**
    * A description of the application as a template literal. In the default example, this can be edited.
+	 * We are storing the full content in the text object for consistency and to keep this object easier to read and manage.
    * @type {string}
    */
-	description: `<p>This starter application provides essential boilerplate code to help you quickly set up new projects. This includes a config object, state object, and a generic controller. This app uses the Tab widget with <em>hidden tabs</em> to toggle between view and edit modes, controlled by the <code>state.currentTab</code> variable.</p>
-<p>This is a great technique for multi-step forms or workflows. However, for larger or more complex sections, consider using separate pages instead.</p>`,
+	description: text.description,
 
 	/**
    * A flag indicating whether this is the user's first time using the application.

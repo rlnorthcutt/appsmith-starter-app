@@ -5,7 +5,18 @@ export default {
    * The primary use of this object is to hold help text, instructions, or reference data that
    * might be displayed to the user. By organizing these text snippets here, it becomes easier 
    * to manage and update instructional content without scattering it throughout the codebase.
+   * 
+	 * The content is stored as a template literal, allowing for the easy embedding of variables 
+   * and multi-line strings. 
    */
+
+	/**
+   * HTML-formatted description text to provide the default starting text.
+   * @type {string}
+   */
+
+	description: `<p>This starter application provides essential boilerplate code to help you quickly set up new projects. This includes a config object, state object, and a generic controller. This app uses the Tab widget with <em>hidden tabs</em> to toggle between view and edit modes, controlled by the <code>state.currentTab</code> variable.</p>
+<p>This is a great technique for multi-step forms or workflows. However, for larger or more complex sections, consider using separate pages instead.</p>`,
 
 	/**
    * HTML-formatted help text to guide users in using the Starter App.
@@ -13,10 +24,9 @@ export default {
    * This content is stored as a template literal, allowing for the easy embedding of variables 
    * and multi-line strings. It provides users with tips and best practices for building apps 
    * using Appsmith, covering topics such as configuration, state management, and naming conventions.
-   * 
    * @type {string}
    */
-	help : `<h3>Starter App</h3>
+	help: `<h3>Starter App</h3>
 Building apps with Appsmith is both fun and straightforward! This app includes essential boilerplate code to help you start a new project quickly. The code is thoroughly commented to serve as a reference. While you may not need to comment your code as extensively, keep in mind that <a href="https://community.appsmith.com/content/blog/lack-comments-bug">well-placed comments</a> make your apps easier to manage and maintain.
 
 Tips:

@@ -23,15 +23,10 @@ export default {
 	title: "Starter App",
 	
 	/**
-	 * Stores the save message that will optionally be displayed when the state is saved.
-	 * @type {string}
+	 * Enable or disable app state caching.
+	 * This is when the state object is auto-loaded to allow the user to pick up where they left off.
+	 * @type {boolean}
 	 */
-	saveMessage: "App saved",	
-	
-	/**
-	 * Stores the reset message that will optionally be displayed when the state is saved.
-	 * @type {string}
-	 */
-	resetMessage: "App reset",
+	autoLoadState: true,
 	
 }
