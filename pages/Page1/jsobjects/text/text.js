@@ -15,7 +15,7 @@ export default {
    * @type {string}
    */
 
-	description: `<p>This starter application provides essential boilerplate code to help you quickly set up new projects. This includes a config object, state object, and a generic controller. This app uses the Tab widget with <em>hidden tabs</em> to toggle between view and edit modes, controlled by the <code>state.currentTab</code> variable.</p>
+	description: `<p>This starter application provides essential boilerplate code to help you quickly set up new projects. This includes a config object, state object, and an app controller object. This app uses the Tab widget with <em>hidden tabs</em> to toggle between view and edit modes, controlled by the <code>state.currentTab</code> variable.</p>
 <p>This is a great technique for multi-step forms or workflows. However, for larger or more complex sections, consider using separate pages instead.</p>`,
 
 	/**
@@ -33,7 +33,6 @@ Tips:
 <ol>
     <li>Use the <strong>"config"</strong> object to store static configuration data that doesn't change during runtime. This can include variables, select lists, constants, and other global values that you may need to reference multiple times.</li>
     <li>Use the <strong>"state"</strong> object to manage dynamic data that changes frequently. This typically includes global mutable variables. This starter app also provides methods to save and reload the state object, allowing users to continue where they left off after a page reload.</li>
-    <li>The <strong>"controller"</strong> is the app's base controller. As your app grows, you'll likely create new objects to handle specific functionalities, ideally organized by domain or feature set (such as an "app" object).</li>
     <li>For your widgets, follow the recommended <a href="https://community.appsmith.com/content/blog/recommended-appsmith-naming-conventions">naming conventions</a>. This will make it easier to manage your app as it becomes more complex.</li>
     <li>Use state variables for most of your data bindings, especially if the data changes. This approach improves performance and makes your app easier to adjust and manage.</li>
 </ol>

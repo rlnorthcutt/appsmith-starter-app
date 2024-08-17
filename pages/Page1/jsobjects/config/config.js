@@ -22,11 +22,4 @@ export default {
    */
 	title: "Starter App",
 	
-	/**
-	 * Enable or disable app state caching.
-	 * This is when the state object is auto-loaded to allow the user to pick up where they left off.
-	 * @type {boolean}
-	 */
-	autoLoadState: true,
-	
 }

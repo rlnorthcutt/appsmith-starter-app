@@ -25,28 +25,12 @@ export default {
 
 	/**
    * Save the current state of the application.
-	 * This extends the default stateController to add additional functionality.
-	 *
-	 * Note that this will work to save the state, but the default auto-loading of state
-	 * is controlled by the config.saveState variable.
    */
 	save() {
 		// Update the state with the edited description text from the text editor widget.
 		state.description = rte_descriptionEdit.text;
 		// Switch to the "view" tab to reflect the updated state.
 		state.currentTab = "view";
-		// Persist the current state for use in the next session.
-		stateController.save();
-	},
-
-	/**
-   * Reset the application state.
-   */
-	reset() {
-		// Reset any widgets to their initial state using the resetwidget() function.
-		// resetWidget('widget_name', false);
-		// Call the controller reset method to clear the state and save it.
-		stateController.reset();
 	},
 
 }

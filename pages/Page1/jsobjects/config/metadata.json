@@ -14,10 +14,6 @@
       {
         "name": "title",
         "value": "\"Starter App\""
-      },
-      {
-        "name": "autoLoadState",
-        "value": "true"
       }
     ]
   }
