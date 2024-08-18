@@ -21,6 +21,7 @@ export default {
 	/**
    * A description of the application as a template literal. In the default example, this can be edited.
 	 * We are storing the full content in the text object for consistency and to keep this object easier to read and manage.
+	 * This means that the original string remains unchanged, but this variable will change as it is state.
    * @type {string}
    */
 	description: text.description,
