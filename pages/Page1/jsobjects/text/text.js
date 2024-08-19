@@ -15,7 +15,7 @@ export default {
    * @type {string}
    */
 
-	description: `<p>This starter application provides essential boilerplate code to help you quickly set up new projects. This includes a config object, state object, and an app controller object. This app uses the Tab widget with <em>hidden tabs</em> to toggle between view and edit modes, controlled by the <code>state.currentTab</code> variable.</p>
+	description: `<p>This starter application provides essential boilerplate code to help you quickly set up new projects. <strong><a href="https://app.appsmith.com/app/starter-app/page1-66b8d2006491da6bd01b4a89?fork=true">Fork this app</a></strong> and then you can customize it to fit your needs. This app includes a config object, state object, and an app controller object. It uses the Tab widget with <em>hidden tabs</em> to toggle between view and edit modes, controlled by the <code>state.currentTab</code> variable.</p>
 <p>This is a great technique for multi-step forms or workflows. However, for larger or more complex sections, consider using separate pages instead.</p>`,
 
 	/**
