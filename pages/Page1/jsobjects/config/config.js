@@ -1,6 +1,6 @@
 export default {
 	/**
- 	 * This module stores the static configuration information about the application.
+ 	 * This object stores the static configuration information about the application.
    * 
    * These values should remain constant during runtime and are primarily used to define
    * key application properties such as the app's storage key, select lists, or other global 

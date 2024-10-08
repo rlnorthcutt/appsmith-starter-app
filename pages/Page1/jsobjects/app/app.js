@@ -1,10 +1,10 @@
 export default {
 	/**
-   * This module contains the core app functionality.
+   * This object contains the core app functionality.
    * It is a basic starter app intended to be expanded with more objects and functions
    * as the app grows in complexity.
    * 
-   * Current functionality includes saving the current state and resetting the application state.
+   * Current functionality includes saving the current stat.
 	 * Note that we are powering the tab selection and editing functions by simply binding the widgets
 	 * to the state variables that power them. This makes the app simpler and leverages the default
 	 * functionality to do the heavy lifting.
